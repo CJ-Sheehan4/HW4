@@ -1,0 +1,71 @@
+/*
+File: style.css
+GUI HW4 Part I: Use our HW3 submission of a dynamic multiplication table and add in the jquery validation
+plugin to validate all input.  
+Cornelius (C.J.) Sheehan, UMass Lowell Computer Science, cornelius_sheehan@student.uml.edu
+
+Copyright (c) 2022 by C.J. 
+All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated on November 25th, 2022 at 11:00AM
+*/
+#body {
+  background-color: #000C0A;
+  background-image: radial-gradient(#00F35C, #004315, #000C0A);
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  background-attachment: fixed;
+  text-align: center;
+}
+#maindiv {
+  background-color: black;
+  margin-top: 50px;
+}
+#header {
+  background-color: black;
+  color: #00F35C;
+  text-align: center;
+  border-bottom-style: solid;
+}
+form {
+  color: #00F35C;
+}
+input {
+  background-color: rgb(3, 55, 3);
+}
+button {
+  background-color: rgb(3, 55, 3);
+}
+.error {
+  color: rgb(206, 0, 0);
+}
+#coltable {
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 300px;
+}
+table {
+  margin: 50px auto;
+  color:#00F35C;
+  width: 100%;
+}
+thead > tr > th:not(th:nth-child(1)) {
+  background-color: #006620;
+  padding: 3px;
+  text-align: center;
+  border: solid #00F35C;
+}
+tbody > tr > th {
+  background-color: #006620;
+  padding: 3px;
+  text-align: center;
+  border: solid #00F35C;
+}
+tbody > tr > td {
+  border: solid #00F35C;
+}
+tr:nth-child(even) {
+  background-color: red;
+}
+/*#001c09*/
