@@ -66,6 +66,5 @@ tbody > tr > td {
   border: solid #00F35C;
 }
 tr:nth-child(even) {
-  background-color: red;
+  background-color: #001c09;
 }
-/*#001c09*/
